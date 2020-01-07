@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,6 +14,7 @@
 
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -22,6 +23,50 @@ body {
     width: 100%;
     padding: 20px;
 }
+
+header img {
+    padding: 5px 0; }
+  header .container {
+    text-align: left; }
+  header ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+
+  header li {
+    display: inline-block; }
+
+  header a {
+    line-height: 50px;
+    padding: 0 20px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+    header a:hover {
+    background-color: #51ff3d); }
+
+    .hero {
+    background-image: url(images/video_header.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+}
+      
+    .headline {
+    float: left;
+    max-width: 500px;
+    margin: 100px 0px 0px 50px;
+    color: #fff;    
+}
+
+button {
+    
+}
+
+
 
 [class*="col-"] {
     float: left;
