@@ -63,9 +63,21 @@ header img {
 }
 
 button {
-    
+    border-radius: 25px;
+    background: transparent;
 }
 
+button a {
+  color: #fff;
+}
+
+.ideas {
+  padding-top: 80px 0px 80px 0;
+}
+
+.gallery img {
+  width: 100%;
+}
 
 
 [class*="col-"] {
