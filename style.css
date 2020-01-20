@@ -21,7 +21,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-    padding: 20px;
+   /* padding: 20px; */
 }
 
 nav {
@@ -85,7 +85,7 @@ button {
 
 button a {
   line-height: 50px;
-  padding: 0 20px;
+  padding: 0 20px; 
   color: #fff;
 }
 
@@ -111,7 +111,7 @@ button a {
 
 .gallery img {
   width: 100%;
-
+  height: auto;
 }
  
 .tile {
@@ -133,6 +133,17 @@ button a {
 
 .tile4 {
   background-image: url(images/Rectangle5.png);
+}
+
+.onlybutton {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.onlybutton a {
+ line-height: 20px;
+ padding: 0px;
+
 }
 
 .seemore {
